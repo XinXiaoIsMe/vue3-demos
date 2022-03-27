@@ -1,0 +1,22 @@
+.d-rate {
+  display: flex;
+  align-items: center;
+
+  .d-rate__icon {
+    transition: all .2s;
+  }
+
+  .d-rate__icon + .d-rate__icon {
+    margin-left: 5px;
+  }
+
+  .d-rate__text {
+    margin-left: 5px;
+    margin-top: 4px;
+    font-size: 14px;
+  }
+
+  .is-active {
+    fill: red;
+  }
+}
